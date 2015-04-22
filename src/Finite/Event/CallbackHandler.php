@@ -41,6 +41,7 @@ class CallbackHandler
                 'to'           => self::ALL,
                 'exclude_from' => array(),
                 'exclude_to'   => array(),
+                'disabled'     => false,
             )
         );
         $this->specResolver->setAllowedTypes(
